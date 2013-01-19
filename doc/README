@@ -1,0 +1,23 @@
+
+Submarine is a Common Lisp library that's somewhere between a
+PostgreSQL library an an object persistency system.  It uses
+Postmodern to communicate with the database. The basic idea is that
+you create your classes in the metaclass DB-CLASS and submarine cares
+about creating SQL tables or, if the tables already exist, checking if
+they conform to the provided specification.  Moreover, Submarine
+supports an intuitive way of expressing both one-to-many and
+many-to-many relations.
+
+You can get more information about the project from its website,
+http://common-lisp.net/project/submarine/.
+
+LICENSING
+
+See the file license.txt
+
+AUTHOR
+
+Ryszard Szopa <ryszard.szopa@gmail.com>.
+http://szopa.tasak.gda.pl/
+
+Any comments or patches are very welcome.
